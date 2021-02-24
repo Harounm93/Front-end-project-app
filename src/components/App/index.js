@@ -19,6 +19,7 @@ function App() {
   return (
     
     <div className='App'>
+    <h1 className = "h1"> List Your Hobbies Below</h1>
       <Input addToList={addToList} />
       <List listArray={toDo} deleteItem = {DeleteItem}/>  
     </div>

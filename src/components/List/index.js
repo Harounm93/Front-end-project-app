@@ -1,4 +1,5 @@
-import ListItem from '../ListItem/index';
+import ListItems from '../ListItem/index';
+
 
 function List({ listArray, deleteItem}) {
   console.log('list is here');
@@ -6,7 +7,7 @@ function List({ listArray, deleteItem}) {
   return (
     <ul>
       {listArray.map((item, index) => (
-        <ListItem text={item} index={index} deleteItem={ deleteItem} />
+        <ListItems text={item} index={index} deleteItem={ deleteItem} />
       ))}
     </ul>
   );

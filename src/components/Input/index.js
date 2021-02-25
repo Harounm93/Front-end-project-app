@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Button from '@material-ui/core/Button';
+import "../Input/input.css"
 
 function Input({addToList}) {
   const [text, setText ] = useState("")

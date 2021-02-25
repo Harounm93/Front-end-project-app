@@ -4,9 +4,9 @@ input {
 }
 
 .input-container{
-    /* display:flex;
+    display:flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     margin: 20px;
     padding-top: 0px;
     
